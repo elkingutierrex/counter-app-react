@@ -1,6 +1,24 @@
 html, body {
+    margin: 1rem;
+    text-align: center;
     background-color: #21232A;
     color: white;
     font-family: 'comic sans ms', 'helvetica', 'arial', sans-serif;
     font-size: 1.3rem;
+}
+
+button{
+    background-color: #61dafb;
+    color: black;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    display: inline-flex;
+    padding: .3rem;
+}
+.div-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
