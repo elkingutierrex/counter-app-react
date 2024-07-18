@@ -5,6 +5,7 @@ html, body {
     color: white;
     font-family: 'comic sans ms', 'helvetica', 'arial', sans-serif;
     font-size: 1.3rem;
+    padding: 2rem;
 }
 
 button{
@@ -21,4 +22,8 @@ button{
     display: flex;
     justify-content: center;
     gap: 1rem;
+}
+.custom-image{
+    max-width: 8rem;
+    border-radius: 5rem;
 }
