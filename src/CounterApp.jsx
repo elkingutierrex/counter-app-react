@@ -8,12 +8,10 @@ export const CounterApp = ( { value } ) => {
     }
 
     const  subtractValue = () =>{
-        console.log('counter', counter);
         counter > 0 && setCounter( counter - 1 );
     }
 
     const  resetValue = () =>{
-        console.log(value);
         setCounter( value);
     }
 
@@ -22,7 +20,7 @@ export const CounterApp = ( { value } ) => {
   return (
     <>
     <img className='custom-image' src="./../src/assets/img/elkingutierrex.png" alt="logo" />
-    <h1>Couter App</h1>
+    <h1>Counter App</h1>
     <h2> { counter } </h2>
 
     <div className="div-buttons">
